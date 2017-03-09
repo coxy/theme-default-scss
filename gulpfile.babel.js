@@ -13,6 +13,7 @@ import rename from 'gulp-rename'
 import saladConfig from './theme-default/salad.config.json'
 
 saladConfig.features = saladConfig.features || {}
+saladConfig.features.color = false
 saladConfig.features.sassColor = false
 saladConfig.features.partialImport = false
 saladConfig.features.precss = false
